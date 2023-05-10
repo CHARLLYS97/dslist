@@ -35,7 +35,7 @@ public class Game {
 	}
 
 	public Game(Long id, String titleString, Integer year, String genre, String platforms, Double score, String imgUrl,
-			String shortDescription, String longDescriptin, String title) {
+			String shortDescription, String longDescription, String title) {
 		this.id = id;
 		this.title = title;
 		this.year = year;
@@ -44,7 +44,7 @@ public class Game {
 		this.score = score;
 		this.imgUrl = imgUrl;
 		this.shortDescription = shortDescription;
-		this.longDescription = longDescriptin;
+		this.longDescription = longDescription;
 	}
 
 	public Long getId() {
@@ -115,8 +115,8 @@ public class Game {
 		return longDescription;
 	}
 
-	public void setLongDescriptin(String longDescriptin) {
-		this.longDescription = longDescriptin;
+	public void setLongDescriptin(String longDescription) {
+		this.longDescription = longDescription;
 	}
 
 	@Override
